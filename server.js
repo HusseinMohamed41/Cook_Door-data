@@ -9,6 +9,4 @@ const PORT = process.env.PORT || 4000;
 server.use(middlewares);
 server.use(router);
 
-server.listen(PORT, () => {
-  console.log(`✅ JSON Server running on port ${PORT}`);
-});
+server.listen(PORT);
